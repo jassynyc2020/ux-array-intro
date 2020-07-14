@@ -13,13 +13,11 @@ let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
-
-// Your Code Here
+console.log(sentence.includes("jumped"));
 
 // Step Two ------------------
 // Log the last word in the array to the console.
-
-// Your Code Here
+console.log(sentence[5]);
 
 /*
 ---------------------------------------------------------------------------
@@ -34,6 +32,8 @@ Then log the sum to the console. (Hint: It should be 28)
 let numbers = [3, 4, 5, 7, 9];
 
 // Your Code Here
+let sum = numbers.reduce((a, b) => a + b);
+console.log(sum);
 
 /*
 ---------------------------------------------------------------------------
@@ -45,11 +45,11 @@ Exercise Three - Creating an array
 // Create a new array and initialize with the names of five different colors.
 // The array should be assigned to a variable named "colors"
 
-// Your Code Here
+let colors = ["red", "pink", "black", "white", "blue"];
 
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
-
+console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
 Exercise Four - Updating an array
@@ -61,8 +61,6 @@ let names = []; // Don't modify this line.
 // Step One ------------------
 // Add 5 names of people to the array.
 // Then log your array to the console.
-
-// Your Code Here
 
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
