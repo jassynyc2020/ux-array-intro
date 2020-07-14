@@ -13,6 +13,7 @@ let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
+
 console.log(sentence.includes("jumped"));
 
 // Step Two ------------------
@@ -61,13 +62,13 @@ let names = []; // Don't modify this line.
 // Step One ------------------
 // Add 5 names of people to the array.
 // Then log your array to the console.
-
+names.push[("jon", "stan", "bob", "ed", "tom")];
+console.log(names);
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
 // Then log the modified array to the console.
 let index = 2;
-
-// Your Code Here
+index[0] = 5;
 
 /*
 ---------------------------------------------------------------------------
@@ -82,5 +83,5 @@ Then log the new array to the console.   Hint: Use concat, this was shown in the
 
 let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
-
-// Your Code Here.
+let thirdArray = firstArray.concat(secondArray);
+console.log(thirdArray);
